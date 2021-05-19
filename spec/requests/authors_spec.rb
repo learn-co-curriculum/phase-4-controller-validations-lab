@@ -33,7 +33,7 @@ RSpec.describe "Authors", type: :request do
     context "with invalid author params" do
       let!(:author_params) { { email: 'jeff@sbahj.info' } }
   
-      it 'does not creates a new author' do
+      it 'does not create a new author' do
         expect { post '/authors', params: author_params }.to change(Author, :count).by(0)
       end
   
