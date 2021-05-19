@@ -42,19 +42,19 @@ can...
 Add validations to `Author` such that...
 
 1. The name cannot be blank
-1. The e-mail is unique
+2. The e-mail is unique
 
 ### Post Validations
 
 Add validations to `Post` such that...
 
 1. The title cannot be blank
-1. The category is either `"Fiction"` or `"Non-Fiction"`
-1. The content is at least 100 characters long
+2. The category is either `"Fiction"` or `"Non-Fiction"`
+3. The content is at least 100 characters long
 
 ### Controller Actions
 
 1. Change `AuthorsController#create` to send back the error messages if the new
    author is invalid
-1. Change `PostsController#update` to send back the error messages if the
+2. Change `PostsController#update` to send back the error messages if the
    updated post is invalid
