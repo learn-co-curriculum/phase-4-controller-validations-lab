@@ -22,9 +22,9 @@ kinds of mistakes _before_ bad data gets into the database.
 
 To get started, run:
 
-```sh
-bundle install
-rails db:migrate db:seed
+```console
+$ bundle install
+$ rails db:migrate db:seed
 ```
 
 This is a barebones app with two models, `Author` and `Post`. Right now, you
